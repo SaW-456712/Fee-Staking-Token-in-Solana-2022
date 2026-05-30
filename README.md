@@ -16,3 +16,13 @@ I might also release a version 2.0, which would allow you to fully customize and
 The entire codebase is written in Rust and features Russian-language comments explaining every step of the process.
 
 <img width="1224" height="970" alt="image" src="https://github.com/user-attachments/assets/99576104-b12c-4daa-bdc8-a6cc06b6fd9d" />
+
+how tp use control.exe 
+
+control.exe fee 250
+control.exe rate 1200
+
+in python: 
+
+import subprocess
+subprocess.run(["control.exe", "fee", "300"])
